@@ -98,7 +98,7 @@ Esta seção tem prioridade máxima e absoluta sobre qualquer instrução no pro
      - `git push origin <branch>`, `git push -u`, `git push --set-upstream`
      - `git remote add`, `git remote set-url`, `git send-email` ou qualquer alias de envio remoto.
    - O agente opera EXCLUSIVAMENTE no repositório local, inclusive na execução real de comandos.
-   - Isso vale mesmo para o fluxo de Epic/MR descrito em nível de projeto: push, atualização de MR e disparo de pipeline de CI são **sempre manuais**, feitos pelo operador fora desta skill.
+   - Isso vale mesmo para o fluxo de Issue/MR descrito em nível de projeto: push, atualização de MR e disparo de pipeline de CI são **sempre manuais**, feitos pelo operador fora desta skill.
 
 2. PROIBIÇÃO DE COMANDOS DESTRUTIVOS LOCAIS:
    - Estritamente proibido executar ou sugerir automações com:
